@@ -27,9 +27,7 @@ input.onButtonPressed(Button.A, function () {
         }
     }
 });
-input.onLogoEvent(TouchButtonEvent.Pressed, function() {
-    
-})
+
 input.onButtonPressed(Button.B, function () {
     if (isCounting == false) {
         switch (mode) {
